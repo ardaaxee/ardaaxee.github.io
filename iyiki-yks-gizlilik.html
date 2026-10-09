@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İyi ki YKS — Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f7f5fb; --fg: #2a2430; --muted: #6b6274; --brand: #5b3fa0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #131019; --fg: #eee8f5; --muted: #a79fb2; --brand: #b9a2ef; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: var(--brand); font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.1rem; margin-top: 28px; }
+  .muted { color: var(--muted); }
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<main>
+  <h1>İyi ki YKS — Gizlilik Politikası</h1>
+  <p class="muted">Son güncelleme: 9 Ekim 2026 · Uygulama: İyi ki YKS (io.github.ardaaxee.iyikiyks)</p>
+
+  <p>İyi ki YKS, TYT ve AYT'ye hazırlanan öğrenciler için kişisel bir çalışma uygulamasıdır. Hesap açmak zorunlu değildir ve reklam ya da reklam takibi içermez.</p>
+
+  <h2>Cihazında saklanan bilgiler</h2>
+  <p>Adın, çalışma hedeflerin, çözdüğün sorular, test sonuçların, yanlışların, planın, defter çizimlerin, panda arkadaşının durumu ve isteğe bağlı öğretmen fotoğrafı yalnız cihazında (tarayıcı depolaması / IndexedDB) saklanır. Uygulamayı kaldırdığında ya da uygulama verilerini temizlediğinde bu bilgiler silinir. Ayarlar ekranından yedek dosyası indirip geri yükleyebilirsin.</p>
+
+  <h2>Yalnız sen açarsan çalışan özellikler</h2>
+  <ul>
+    <li><b>Bulut eşitleme ve ortak ekran:</b> Ayarlar'dan açarsan çalışma verilerin, senin seçtiğin Google Firebase (Firestore) projesine, tahmin edilemeyen bir kodla kaydedilir. Ortak ekran bağlantısını paylaştığın kişi yalnız çalışma özetini (soru sayısı, seri, deneme neti gibi) ve bıraktığı mesajları görür.</li>
+    <li><b>Yapay zekâ öğretmen:</b> Soru sorduğunda mesajın, ilgili konu/soru bilgisi ve gönderdiğin soru fotoğrafı, cevap üretmek için uygulamanın yapay zekâ sunucusuna (Render üzerinde) ve oradan yapay zekâ sağlayıcısına (Google Gemini veya Anthropic Claude) iletilir. Kişisel bilgi yazmamanı öneririz.</li>
+    <li><b>Canlı birlikte çalışma:</b> Bu özelliği başlatırsan bağlantı ve sohbet sinyalleri Supabase Realtime üzerinden, oda koduna göre uçtan uca şifrelenmiş olarak iletilir.</li>
+    <li><b>Bildirimler:</b> İzin verirsen çalışma hatırlatmaları ve panda bildirimleri cihazında gösterilir.</li>
+  </ul>
+
+  <h2>Paylaşım ve satış</h2>
+  <p>Kişisel verilerin satılmaz, reklam amacıyla kullanılmaz ve yukarıdaki işlevler dışında üçüncü taraflarla paylaşılmaz.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama lise öğrencilerine yöneliktir; bilerek 13 yaş altı çocuklardan veri toplanmaz.</p>
+
+  <h2>Verilerini silme</h2>
+  <p>Cihazdaki tüm verileri Ayarlar ekranından ya da Android'de Uygulama bilgisi → Depolama → Verileri temizle ile silebilirsin. Bulut eşitlemeyi kullandıysan buluttaki kaydın silinmesi için aşağıdaki adrese yazabilirsin.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorular ve silme talepleri için: <a href="mailto:acarcuma25@gmail.com">acarcuma25@gmail.com</a></p>
+</main>
+</body>
+</html>
